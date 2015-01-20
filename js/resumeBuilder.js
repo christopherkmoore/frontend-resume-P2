@@ -86,7 +86,7 @@ bio.display = function(){
 
 
 	var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
-	$('#topContacts').append(formattedMobile);
+	$('.flex-box').append(formattedMobile);
 
 	var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
 	$('.flex-box').append(formattedEmail);
