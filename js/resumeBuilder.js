@@ -132,7 +132,6 @@ work.display = function() {
 	}
 }
 
-/* displays project section */
 
 projects.display = function() {
 	for (i in projects.projects) {
@@ -152,7 +151,6 @@ projects.display = function() {
 	}
 }
 
-/* displays education section */ 
 
 education.display = function() {
 	for (i in education.schools) {
